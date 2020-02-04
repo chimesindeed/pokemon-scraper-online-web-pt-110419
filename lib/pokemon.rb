@@ -1,6 +1,6 @@
 class Pokemon
   
-  
+  a = Scraper.new("a")
   Scraper.catch_em_all
   attr_accessor :id, :name, :type, :db
   
